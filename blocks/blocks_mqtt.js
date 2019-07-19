@@ -1,6 +1,3 @@
-module.exports = function(Blockly) {
-  "use strict";
-
   Blockly.Blocks["mqtt_block"] = {
     init: function() {
 
@@ -135,5 +132,3 @@ module.exports = function(Blockly) {
       this.setHelpUrl("");
     }
   };
-
-};
