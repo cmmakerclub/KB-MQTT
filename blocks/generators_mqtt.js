@@ -1,6 +1,3 @@
-module.exports = function(Blockly) {
-  "use strict";
-
   let clientId;
   let mqtt_username = "";
   let mqtt_password = "";
@@ -111,5 +108,3 @@ module.exports = function(Blockly) {
     `;
     return code;
   };
-
-};
